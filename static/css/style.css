@@ -1,0 +1,30 @@
+:root {
+    --background-color: #222831;
+    --background-color-pale: #393e46;
+    --primaly-color: #00adb5;
+    --primaly-color-pale: #00686f;
+    --white: #eeeeee;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--white);
+}
+
+a {
+    color: var(--primaly-color);
+}
+
+a:visited {
+    color: var(--primaly-color-pale);
+}
+
+.title {
+    font-size: 300%;
+    text-align: center;
+    padding: 20%;
+}
+
+.title-element {
+    display: inline-block;
+}
