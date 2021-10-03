@@ -4,9 +4,11 @@
     --primaly-color: #00adb5;
     --primaly-color-pale: #00686f;
     --white: #eeeeee;
+    --white-pale: #bdbdbd;
 }
 
 body {
+    font-family: 'Wawati SC', monospace;
     background-color: var(--background-color);
     color: var(--white);
 }
@@ -19,12 +21,35 @@ a:visited {
     color: var(--primaly-color-pale);
 }
 
-.title {
-    font-size: 300%;
+#site-title {
     text-align: center;
-    padding: 20%;
+    font-size: 300%;
 }
 
-.title-element {
-    display: inline-block;
+#status-message {
+    color: var(--white-pale);
+    display: block;
+    text-align: center;
+}
+
+#page-prev-container {
+    width: 100%;
+    display: flex;
+}
+
+.page-prev {
+    height: 100;
+    width: 100%;
+}
+
+.page-prev h1 {
+    display: block;
+    text-align: center;
+}
+
+.page-prev-pannel {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid var(--background-color-pale);
+    border-radius: 10px;
 }
