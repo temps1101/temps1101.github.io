@@ -9,3 +9,9 @@ function copyStringToClipboard () {
     document.body.removeChild(el);
     alert('IDクリップボードに書いたよ！alertで知らせちゃってごめんちゃいっ！')
 }
+
+$(window).on('load', function() {
+    var $widget = $('iframe.twitter-timeline');
+    var $widgetContents = $widget.contents();
+    $widgetContents.find('head').append('<link rel="stylesheet" href="static/css/twitter.css">');
+  });

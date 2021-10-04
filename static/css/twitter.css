@@ -1,0 +1,28 @@
+:root {
+    --background-color: #222831;
+    --background-color-pale: #393e46;
+    --primaly-color: #00adb5;
+    --primaly-color-pale: #00686f;
+    --white: #eeeeee;
+    --white-pale: #bdbdbd;
+}
+
+
+a {
+    color: var(--primaly-color);
+}
+
+a:visited {
+    color: var(--primaly-color-pale);
+}
+
+
+body * {
+    font-family: 'Wawati SC', monospace;
+    background-color: var(--background-color);
+    color: var(--white);
+}
+
+.timeline-Tweet.u-cf.js-tweetIdInfo.js-clickToOpe.Target:hover {
+    background-color: var(--background-color);
+}
