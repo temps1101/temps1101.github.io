@@ -111,6 +111,10 @@ header {
     display: flex;
 }
 
+#profile-img {
+    border-radius: 10px;
+}
+
 #discord-button {
     background: none;
     border: 0;
