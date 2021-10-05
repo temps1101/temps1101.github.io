@@ -6,7 +6,7 @@
     --white: #eeeeee;
     --white-pale: #bdbdbd;
 }
-
+/* TODO: https://dezanari.com/twitter-widget-embed/ */
 
 a {
     color: var(--primaly-color);
@@ -23,6 +23,10 @@ body * {
     color: var(--white);
 }
 
-.timeline-Tweet.u-cf.js-tweetIdInfo.js-clickToOpe.Target:hover {
+.timeline-Header-title {
+    color: var(--white);
+}
+
+.timeline-Tweet:hover {
     background-color: var(--background-color);
 }
