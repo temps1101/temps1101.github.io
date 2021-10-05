@@ -14,4 +14,5 @@ $(window).on('load', function() {
     var $widget = $('iframe.twitter-timeline');
     var $widgetContents = $widget.contents();
     $widgetContents.find('head').append('<link rel="stylesheet" href="static/css/twitter.css">');
+    $widgetContents.find('head').append('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&display=swap" rel="stylesheet">');
   });
