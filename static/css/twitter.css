@@ -31,3 +31,7 @@ body * {
   .TwitterCard-container--clickable:hover {
     background-color: var(--background-color) !important;
   }
+
+.timeline-Viewport::-webkit-scrollbar {
+    display: none;
+}
