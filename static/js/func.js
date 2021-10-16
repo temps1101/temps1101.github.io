@@ -10,7 +10,13 @@ function copyStringToClipboard () {
     alert('IDクリップボードに書いたよ！alertで知らせちゃってごめんちゃいっ！')
 }
 
+function sleep(waitMsec) {
+    var startMsec = new Date();
+    while (new Date() - startMsec < waitMsec);
+  }
+
 $(window).on('load', function() {
+    sleep(1000);
     var $widget = $('iframe.twitter-timeline');
     var $widgetContents = $widget.contents();
     $widgetContents.find('head').append('<link rel="stylesheet" href="static/css/twitter.css">');
