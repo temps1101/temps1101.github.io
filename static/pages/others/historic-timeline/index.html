@@ -3,14 +3,16 @@
 
 <head>
     <link rel="icon" type="image/x-icon" href="static/image/icon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../../css/style.css">
     <link rel="stylesheet" href="../../../css/historic-timeline.css">
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/hot-sneaks/jquery-ui.css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="../../../js/historic-timeline.js"></script>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <title>中学歴史-年表順序ゲーム卍</title>
 </head>
 
@@ -25,6 +27,36 @@
         <h1>中学歴史-年表順序ゲーム!!</h1>
         <p>を作りました。ぜひやってください。</p>
         <button id="historic-timeline-play-button" onclick="startHistoricGame()">プレイしちゃう！想定時間はあなたの頭次第！</button>
+        <div id="game-bg">
+            <div id="game-page"><button id="historic-timeline-exit-button" onclick="exit()"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-x"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                    </svg></button>
+                <div id="content-wrapper">
+                    <h1>Q1：〜全体の流れ〜</h1>
+                    <div id="historic-timeline-drag-list">
+                        <div id="happening1" class="historic-timeline-draggable" draggable="true">縄文</div>
+                        <div id="happening2" class="historic-timeline-draggable" draggable="true">弥生</div>
+                        <div id="happening3" class="historic-timeline-draggable" draggable="true">古墳</div>
+                        <div id="happening4" class="historic-timeline-draggable" draggable="true">飛鳥</div>
+                        <div id="happening5" class="historic-timeline-draggable" draggable="true">奈良</div>
+                        <div id="happening6" class="historic-timeline-draggable" draggable="true">平安</div>
+                        <div id="happening7" class="historic-timeline-draggable" draggable="true">鎌倉</div>
+                        <div id="happening8" class="historic-timeline-draggable" draggable="true">室町</div>
+                        <div id="happening9" class="historic-timeline-draggable" draggable="true">戦国</div>
+                        <div id="happening10" class="historic-timeline-draggable" draggable="true">安土桃山</div>
+                        <div id="happening11" class="historic-timeline-draggable" draggable="true">江戸</div>
+                        <div id="happening12" class="historic-timeline-draggable" draggable="true">明治</div>
+                        <div id="happening13" class="historic-timeline-draggable" draggable="true">大正</div>
+                        <div id="happening14" class="historic-timeline-draggable" draggable="true">昭和</div>
+                        <div id="happening15" class="historic-timeline-draggable" draggable="true">平成</div>
+                        <div id="happening16" class="historic-timeline-draggable" draggable="true">REIWA</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
