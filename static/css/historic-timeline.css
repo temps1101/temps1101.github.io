@@ -25,7 +25,49 @@ body {
     border-radius: 10px;
 }
 
-#start-page {
+#historic-timeline-start-button {
+    width: 70%;
+    height: 100px;
+    cursor: pointer;
+    display: block;
+    font-family: 'Kiwi Maru', serif;
+    color: var(--white);
+    background-color: var(--primaly-color);
+    border: 1px solid var(--background-color);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#historic-timeline-exit-button {
+    float: right;
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+}
+
+#historic-timeline-drag-list {
+    width: 50%;
+    height: 400px; /* FIXME */
+    border: 1px solid var(--background-color);
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    background-color: var(--background-color);
+    overflow: scroll;
+}
+
+.historic-timeline-draggable {
+    background-color: var(--primaly-color);
+    height: 2em;
+    margin: 3px;
+    cursor:pointer;
+    border: 1px solid var(--background-color-pale);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#game-page {
     position: absolute;
     top: 0;
     right: 0;
