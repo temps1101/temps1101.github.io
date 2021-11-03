@@ -120,10 +120,17 @@ header {
         margin:  0 auto;
         width: 800px;
     }
+    .other-page {
+        display: none;
+    }
 }
 
-@media screen and (max-width: 979px) {
-	body {
+@media screen and (max-width: 959px) {
+	.pc-page {
         display: none;
+    }
+
+    .other-page {
+        display: block;
     }
 }

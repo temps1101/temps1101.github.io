@@ -90,8 +90,24 @@ body {
     left: 0;
 }
 
-@media screen and (max-width: 979px) {
-	body {
+@media screen and (min-width:1024px) {
+    #article-container {
+        margin: 5px;
+        padding-top: 100px;
+        margin:  0 auto;
+        width: 800px;
+    }
+    .other-page {
         display: none;
+    }
+}
+
+@media screen and (max-width: 959px) {
+	.pc-page {
+        display: none;
+    }
+
+    .other-page {
+        display: block;
     }
 }
