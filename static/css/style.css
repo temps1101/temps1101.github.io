@@ -99,6 +99,7 @@ header {
 }
 
 #discord-button {
+    cursor: pointer;
     background: none;
     border: 0;
     padding: 0;
