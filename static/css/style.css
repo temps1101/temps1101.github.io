@@ -121,3 +121,9 @@ header {
         width: 800px;
     }
 }
+
+@media screen and (max-width: 979px) {
+	body {
+        display: none;
+    }
+}
