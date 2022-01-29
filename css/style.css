@@ -10,6 +10,10 @@ body {
     position: fixed;
 }
 
+.preview-image-lg {
+    width: 15rem;
+}
+
 #top-button {
     position: fixed;
     width: 5rem;
