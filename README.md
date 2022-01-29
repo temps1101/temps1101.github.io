@@ -36,6 +36,7 @@ go https://temps1101.github.io
           <meta charset="utf-8"/>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <title></title><!--TODO タイトル追加-->
+          <link rel="icon" type="image/x-icon" href="images/icon.ico"><!--TODO 相対パス変更-->
       
           <link rel="preconnect" href="https://fonts.googleapis.com">
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
