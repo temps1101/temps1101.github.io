@@ -5,3 +5,15 @@ body {
 .no-link-deco {
     text-decoration: none;
 }
+
+.unscrollable {
+    position: fixed;
+}
+
+#top-button {
+    position: fixed;
+    width: 5rem;
+    bottom: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
