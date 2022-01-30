@@ -1,0 +1,37 @@
+:root {
+    --background-color: #222831;
+    --background-color-pale: #393e46;
+    --primaly-color: #00adb5;
+    --primaly-color-pale: #00686f;
+    --white: #eeeeee;
+    --white-pale: #bdbdbd;
+}
+a {
+    color: var(--primaly-color) !important;
+}
+
+a:visited {
+    color: var(--primaly-color-pale);
+}
+
+
+body * {
+    font-family: 'Kiwi Maru', serif;
+    background-color: var(--background-color);
+    color: var(--white);
+}
+
+.timeline-Header-title {
+    color: var(--white);
+}
+
+.timeline-Tweet:hover {
+    background-color: var(--background-color) !important;
+}
+  .TwitterCard-container--clickable:hover {
+    background-color: var(--background-color) !important;
+  }
+
+.timeline-Viewport::-webkit-scrollbar {
+    display: none;
+}
