@@ -30,7 +30,7 @@
 <div class="container pt-5">
     <div class="row">
         <div class="col-lg-2 col-sm-12 bg-darkpale rounded text-center p-2 h-50 advertisement text-lightpale"></div>
-        <div class="col-lg-8 sm-12 text-light my-2">
+        <div class="col-lg-8 col-sm-12 text-light my-2">
             <h1>N進数変換機</h1>
             <p>小学生のときにScratchで作ったN進数変換機が懐かしくてJSで再び実装する。</p>
             <p>N進数に関しては<a href="https://ja.wikipedia.org/wiki/進数" class="text-primary">ここ</a>を参考にしてみてほしい。</p>
@@ -41,7 +41,22 @@
                 <li>変換したい進数を入力する</li>
                 <li>submitを押す</li>
             </ol>
-
+            <h1>入力</h1>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                  <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">進数を選択</button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">2進数</a>
+                    <a class="dropdown-item" href="#">3進数</a>
+                    <a class="dropdown-item" href="#">進数</a>
+                    <a class="dropdown-item" href="#">進数</a>
+                    <a class="dropdown-item" href="#">3進数</a>
+                    <a class="dropdown-item" href="#">3進数</a>
+                  </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with dropdown button">
+              </div>
+            <h1>出力</h1>
         </div>
         <div class="col-lg-2 col-sm-12 bg-darkpale rounded text-center p-2 h-50 advertisement text-lightpale"></div>
     </div>
