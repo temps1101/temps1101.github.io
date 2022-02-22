@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300px" height="300px">
+    <g>
+        <rect width="300px" height="300px" rx="20" fill="#393e46"/>
+        <text x="20" y="60" font-weight="bold" font-size="45" fill="#bdbdbd">
+            濁
+        </text>
+</svg>
