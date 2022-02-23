@@ -1,7 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300px" height="300px">
-    <g>
-        <rect width="300px" height="300px" rx="20" fill="#393e46"/>
-        <text x="20" y="60" font-weight="bold" font-size="45" fill="#bdbdbd">
-            濁
-        </text>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300">
+    <rect width="300" height="300" rx="20" fill="#393e46"/>
+    <text x="30" y="80" font-weight="bold" font-size="60" fill="#bdbdbd">わ</text>
+    <text x="30" y="170" font-weight="bold" font-size="60" fill="#bdbdbd"></text>
+    <text x="30" y="260" font-weight="bold" font-size="60" fill="#bdbdbd">濁</text>
+    <text x="120" y="80" font-weight="bold" font-size="60" fill="#bdbdbd"></text>
+    <text x="120" y="170" font-weight="bold" font-size="60" fill="#bdbdbd">「</text>
+    <text x="120" y="260" font-weight="bold" font-size="60" fill="#bdbdbd"></text>
+    <text x="210" y="80" font-weight="bold" font-size="60" fill="#bdbdbd">Q</text>
+    <text x="210" y="170" font-weight="bold" font-size="60" fill="#bdbdbd">A</text>
+    <text x="210" y="260" font-weight="bold" font-size="60" fill="#bdbdbd">Z</text>
 </svg>
