@@ -8,7 +8,8 @@ const contents = [
     '<h2>広告</h2><p>サカナクション関連一覧</p><p>サカナクションを聴くことで僕は生きています。その愛をここで語ります。サカナクション好きは必見！！！</p><a href=\"https://temps1101.github.io/pages/sakanaction/index.html\" class=\"text-lightpale\">魚民だからみる。</a>',
     '<h2>広告</h2><p>マイクラ関連一覧</p><p>僕はマイクラを開発して楽しむ派。まだ開発レベルはクソだけどねんwwww</p><a href=\"https://temps1101.github.io/pages/minecraft/index.html\" class=\"text-lightpale\">Javaーん</a>',
     '<h2>広告</h2><p>その他諸々一覧</p><p>僕の多趣味さを見せびらされたい人カモンっ</p><a href=\"https://temps1101.github.io/pages/miscellaneous/index.html\" class=\"text-lightpale\">miscellaneous</a>',
-    '<h2>広告</h2><p>discordID</p>話そ！話そ！話そ！<p>temps1101#6781だよ！</p>'
+    '<h2>広告</h2><p>discordID</p>話そ！話そ！話そ！<p>temps1101#6781だよ！</p>',
+    '<h2>広告</h2><p>ステノグラファー体験ができるサイトはここだけ！（だとおもふ）</p><a href=\"https://temps1101.github.io/pages/miscellaneous/steno-type/index.html\" class=\"text-lightpale\">miscellaneous</a>',
 ]
 
 $('.advertisement').each(function (i, o) {
