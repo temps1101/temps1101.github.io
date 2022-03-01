@@ -53,21 +53,45 @@ document.body.addEventListener('keyup', (event) => {
         pressed_steno.forEach(steno => $(steno2htmlid[steno]).css('opacity', '1.0'));
         let out = keybinds[Array.from(pressed_steno).sort().join('')];
         if (out) {
-            $("#text-area").val($("#text-area").val()+ out);
+            $("#text-area").val($("#text-area").val() + out);
         }
         pressed_steno = new Set();
     }
     if (dict_text !== $('#dict-input').val()) {
-        dict_text = $('#dict-input').val();
-        console.log(dict_text)
+        $('#dict-area').empty();
+        if ($('#dict-input').val() !== '') {
+            dict_text = $('#dict-input').val();
+            Object.keys(keybinds).forEach((keybind) => {
+                if (keybinds[keybind].indexOf(dict_text) !== -1) {
+                    $('#dict-area').append('<div class="bg-darkpale rounded px-1 py-2 fs-4 my-1 text-center dict-element" id="' + keybind + '">' + keybinds[keybind] + '</div>');
+                }
+            })
+        }
     }
 });
+
+$(document).on({
+    'mouseenter': function() {
+        $(this).css('opacity', '0.4');
+        [].forEach.call($(this).attr('id'), function(steno) {
+            $(steno2htmlid[steno]).css('opacity', '0.4');
+        });
+    },
+    'mouseleave': function() {
+        $(this).css('opacity', '1.0');
+        Object.keys(steno2htmlid).forEach((steno) => {
+            $(steno2htmlid[steno]).css('opacity', '1.0');
+        });
+    }
+}, '.dict-element')
+
+
 
 $('#dict-input').focusin((event) => {
     dict_focused = true;
 }).focusout((event) => {
     dict_focused = false;
-})
+});
 
 $("#text-area").focusin((event) => {
     dict_focused = true;
