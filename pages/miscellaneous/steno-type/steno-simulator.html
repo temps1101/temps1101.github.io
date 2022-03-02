@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="../../../css/steno.css">
 
 </head>
-<body class="bg-dark">
+<body class="bg-dark text-light">
 <a href="../../../index.html" class="no-link-deco">
     <header class="text-light border-bottom border-darkpale py-2 text-center">
         <h3>temps1101's GOD SITE</h3>
@@ -30,31 +30,60 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-2 col-sm-0"></div>
+            <h1 class="col-lg-8 col-sm-12">steno-word</h1>
+            <div class="col-lg-2 col-sm-0"></div>
+            
+            <div class="col-lg-2 col-sm-0"></div>
             <div class="col-lg-8 col-sm-12">
-                <div class="row">
-                    <textarea type="text" class="col-12 text-light bg-dark border border-white rounded py-2 px-2 my-3 no-scrollbar" id="text-area"></textarea>
-                    <img src="keys/bs.svg" id="key-bs" class="img-fluid col-1 key"/>
-                    <img src="keys/0.svg" id="key-0" class="img-fluid col-1 key"/>
-                    <img src="keys/1.svg" id="key-1" class="img-fluid col-1 key"/>
-                    <img src="keys/2.svg" id="key-2" class="img-fluid col-1 key"/>
-                    <img src="keys/3.svg" id="key-3" class="img-fluid col-1 key"/>
-                    <img src="keys/4.svg" id="key-4" class="img-fluid col-1 key"/>
-                    <img src="keys/5.svg" id="key-5" class="img-fluid col-1 key"/>
-                    <img src="keys/6.svg" id="key-6" class="img-fluid col-1 key"/>
-                    <img src="keys/7.svg" id="key-7" class="img-fluid col-1 key"/>
-                    <img src="keys/8.svg" id="key-8" class="img-fluid col-1 key"/>
-                    <img src="keys/9.svg" id="key-9" class="img-fluid col-1 key"/>
-                    <img src="keys/return.svg" id="key-return" class="img-fluid col-1 key"/>
-                    <div class="col-3"></div>
-                    <img src="keys/l.svg" id="key-l" class="img-fluid col-2 key"/>
-                    <img src="keys/muhenkan.svg" id="key-muhenkan" class="img-fluid col-1 key"/>
-                    <img src="keys/henkan.svg" id="key-henkan" class="img-fluid col-1 key"/>
-                    <img src="keys/r.svg" id="key-r" class="img-fluid col-2 key"/>
-                    <div class="col-3"></div>
+                <textarea type="text" class="text-light bg-dark border border-lightpale rounded py-2 px-2 no-scrollbar w-100" id="text-area"></textarea>
+            </div>
+            <div class="col-lg-2 col-sm-0"></div>
+
+            <div class="col-lg-2 col-sm-0"></div>
+            <div class="col-lg-8 col-sm-12 d-flex justify-content-center flex-nowrap">
+                <img src="keys/bs.svg" id="key-bs" class="col-1 img-fluid key"/>
+                <img src="keys/0.svg" id="key-0" class="col-1 img-fluid key"/>
+                <img src="keys/1.svg" id="key-1" class="col-1 img-fluid key"/>
+                <img src="keys/2.svg" id="key-2" class="col-1 img-fluid key"/>
+                <img src="keys/3.svg" id="key-3" class="col-1 img-fluid key"/>
+                <img src="keys/4.svg" id="key-4" class="col-1 img-fluid key"/>
+                <img src="keys/5.svg" id="key-5" class="col-1 img-fluid key"/>
+                <img src="keys/6.svg" id="key-6" class="col-1 img-fluid key"/>
+                <img src="keys/7.svg" id="key-7" class="col-1 img-fluid key"/>
+                <img src="keys/8.svg" id="key-8" class="col-1 img-fluid key"/>
+                <img src="keys/9.svg" id="key-9" class="col-1 img-fluid key"/>
+                <img src="keys/return.svg" id="key-return" class="col-1 img-fluid key"/>
+            </div>
+            <div class="col-lg-2 col-sm-0"></div>
+
+            <div class="col-lg-2 col-sm-0"></div>
+            <div class="col-lg-8 col-sm-12 d-flex justify-content-center flex-nowrap">
+                <img src="keys/l.svg" id="key-l" class="col-2 img-fluid key"/>
+                <img src="keys/muhenkan.svg" id="key-muhenkan" class="col-1 img-fluid key"/>
+                <img src="keys/henkan.svg" id="key-henkan" class="col-1 img-fluid key"/>
+                <img src="keys/r.svg" id="key-r" class="col-2 img-fluid key"/>
+            </div>
+            <div class="col-lg-2 col-sm-0"></div>
+
+            <div class="col-lg-2 col-sm-0"></div>
+            <h1 class="col-lg-8 col-sm-12">辞書</h1>
+            <div class="col-lg-2 col-sm-0"></div>
+
+            <div class="col-lg-2 col-sm-0"></div>
+            <div class="col-lg-8 col-sm-12">
+                <input id="dict-input" type="text" class=" text-light bg-dark border border-lightpale rounded py-2 px-2 no-scrollbar w-100" placeholder="ここにひらがなの語句をいれてね。"></input>
+            </div>
+            <div class="col-lg-2 col-sm-0"></div>
+
+            <div class="col-lg-2 col-sm-0"></div>
+            <div class="col-lg-8 col-sm-12">
+                <div class="overflow-auto no-scrollbar border border-lightpale rounded px-1 py-1 mt-1 mb-5" id="dict-area">
+                    <!--<div class="bg-darkpale rounded px-1 py-2 fs-4 my-1 text-center dict-element">ください</div>-->
                 </div>
             </div>
             <div class="col-lg-2 col-sm-0"></div>
         </div>
+    </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
