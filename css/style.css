@@ -1,0 +1,27 @@
+body {
+    font-family: 'Kiwi Maru', serif;
+}
+
+.no-link-deco {
+    text-decoration: none;
+}
+
+.unscrollable {
+    position: fixed;
+}
+
+.preview-image-lg {
+    width: 15rem;
+}
+
+#top-button {
+    position: fixed;
+    width: 5rem;
+    bottom: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.no-scrollbar::-webkit-scrollbar {  /* Chrome, Safari 対応 */
+    display:none;
+}
