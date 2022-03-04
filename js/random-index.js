@@ -12,10 +12,10 @@ let contents = [
         'link': 'pages/miscellaneous/steno-type/index.html'
     },
     {
-        'img': 'images/steno.webp',
-        'title': 'ステノタイプ',
-        'summary': 'ステノキャプショナーってググってみ。そんで一番上の動画みてみ。これやりたくなると思うよ。',
-        'link': 'pages/miscellaneous/steno-type/index.html'
+        'img': 'images/yokubou-box.webp',
+        'title': '受験終了直後の所存記',
+        'summary': '心配してもらうためじゃなく、数年後こういうこともあったなーって思うための記事。今は読まなくてもよろしいが、リニューアル直後でコンテンツが少なすぎて書いた。',
+        'link': 'pages/miscellaneous/finish-exam/index.html'
     }
 ]
 
