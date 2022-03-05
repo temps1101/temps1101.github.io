@@ -16,6 +16,24 @@ let contents = [
         'title': '受験終了直後の所存記',
         'summary': '心配してもらうためじゃなく、数年後こういうこともあったなーって思うための記事。今は読まなくてもよろしいが、リニューアル直後でコンテンツが少なすぎて書いた。',
         'link': 'pages/miscellaneous/finish-exam/index.html'
+    },
+    {
+        'img': 'images/magma-bukkit.webp',
+        'title': 'その他一覧',
+        'summary': '現在（2022/3/6で一番記事の量が多いよ）',
+        'link': 'pages/miscellaneous/index.html'
+    },
+    {
+        'img': 'images/gsa.webp',
+        'title': 'gsa書き直したよ。',
+        'summary': 'gsaのコードを書いたよ。っていうかMITライセンスのコードが汚かったから綺麗にしたつもり。',
+        'link': 'pages/code/gsa/index.html'
+    },
+    {
+        'img': 'images/et.JPG',
+        'title': 'ET!!!',
+        'summary': '思い立ったらからやってみた',
+        'link': 'https://ja.wikipedia.org/wiki/E.T.'
     }
 ]
 

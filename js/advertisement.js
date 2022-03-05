@@ -10,7 +10,9 @@ const contents = [
     '<h2>広告</h2><p>その他諸々一覧</p><p>僕の多趣味さを見せびらされたい人カモンっ</p><a href=\"https://temps1101.github.io/pages/miscellaneous/index.html\" class=\"text-lightpale\">miscellaneous</a>',
     '<h2>広告</h2><p>discordID</p>話そ！話そ！話そ！<p>temps1101#6781だよ！</p>',
     '<h2>広告</h2><p>2021の記事たちを見る</p><p>レスポンシブ対応していないので、スマフォは除外されるよ。idをclassと同じ扱いをしているよ。ただごちゃごちゃ感が好み。</p><a href=\"https://temps1101.github.io/pages/legacy/index.html\" class=\"text-lightpale\">過去も気になる</a>',
-    '<h2>広告</h2><p>ステノグラファー体験ができるサイトはここだけ！（だとおもふ）</p><a href=\"https://temps1101.github.io/pages/miscellaneous/steno-type/index.html\" class=\"text-lightpale\">miscellaneous</a>',
+    '<h2>広告</h2><p>ステノグラファー体験ができるサイトはここだけ！（だとおもふ）</p><a href=\"https://temps1101.github.io/pages/miscellaneous/steno-type/index.html\" class=\"text-lightpale\">ステノキャプショナーになる！</a>',
+    '<h2>広告</h2><p>tempsの初プログラミング記だよ。gsaっていうAIのアルゴリズムを書き直したよ。めちゃ内容薄いよ。てへ</p><a href=\"https://temps1101.github.io/pages/code/gsa/index.html\" class=\"text-lightpale\">見に行く！</a>',
+    '<h2>呟き</h2><p>ゴミクズみたいな内容の記事に本物の広告つけて儲けようとすな。きもいぞ。あと画面移行するときに表示される大きい広告。あれ、めちゃくちゃ閉じるボタン小さくて腹たつ。</p>',
 ]
 
 $('.advertisement').each(function (i, o) {

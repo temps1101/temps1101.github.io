@@ -25,3 +25,9 @@ body {
 .no-scrollbar::-webkit-scrollbar {  /* Chrome, Safari 対応 */
     display:none;
 }
+
+pre code{
+    word-wrap: normal !important;
+    overflow-wrap: normal !important;
+    white-space: pre !important;
+}
