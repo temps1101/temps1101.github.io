@@ -34,6 +34,12 @@ let contents = [
         'title': 'ET!!!',
         'summary': '思い立ったらからやってみた',
         'link': 'https://ja.wikipedia.org/wiki/E.T.'
+    },
+    {
+        'img': 'http://www2.city.fuji.shizuoka.jp/cgi-bin/fujisan-still-1280.cgi',
+        'title': '今の富士山',
+        'summary': '読み込むのにちょい時間かかるから待っててね。パクってきただけです。すみません。DDoSじゃないですよね。多分。',
+        'link': 'http://www2.city.fuji.shizuoka.jp/livecamera/fujiyama_still.htm'
     }
 ]
 
